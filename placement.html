@@ -1,0 +1,473 @@
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="placement.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/icons/">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <!-- //w3school framework -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <title>Placement</title>
+
+  <style media="screen">
+    .carousel-cell {
+      width: 30%;
+    }
+
+    /* cell number */
+    .carousel-cell:before {
+      display: block;
+    }
+
+
+    @media (max-width: 760px) {
+      .carousel-cell{
+        width: 60%;
+      }
+    }
+    #ourplogo{
+      margin-top: 11%;
+      text-decoration: underline;
+    }
+    @media (max-width: 860px){
+      #ourplogo{
+      margin-top: 14%;
+    }
+    }
+    @media (max-width: 660px){
+      #ourplogo{
+      margin-top: 24%;
+    }
+    }
+  </style>
+</head>
+
+<body id="body">
+
+
+  <header class="site-header">
+    <nav>
+      <div class="logoandname"><div><img src="images/institutelogo.png" alt="" width="42" height="36" id="institutelogo"></div><span>Indore
+          Institute</span></div>
+      <div class="menuonnav">
+        <ul>
+          <li> <a href="https://indoreinstitute.com/message-from-the-management/">About Institute</a></li>
+          <li><a href="http://indoreinstitute.com/iist/">IIST</a></li>
+          <li><a href="http://indoreinstitute.com/iip/">IIP</a> </li>
+          <li><a href="http://indoreinstitute.com/iimr/">IIMR</a></li>
+        </ul>
+      </div>
+    </nav>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div id="sidebar">
+      <ul>
+        <li><a href="index.html"><i class="fas fa-qrcode"></i> Home</a></li>
+        <li><a href="https://indoreinstitute.com/admission/"><i class="fas fa-link"></i>Admission</a></li>
+        <li><a href="placement.html"><i class="fas fa-stream"></i> Placement</a></li>
+        <li><a href="https://indoreinstitute.com/events/"><i class="fas fa-question-circle"></i> Events</a></li>
+        <li><a href="https://indoreinstitute.com/360-degree/"><i class="fas fa-sliders-h"></i> View</a></li>
+        <li><a href="https://indoreinstitute.com/message-from-the-management/"><i class="fas fa-qrcode"></i> About
+            Us</a></li>
+        <li><a href="#bottomfooter"><i class="fas fa-envelope"></i>Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel"
+    style="margin-top: 74px; height: 30vh;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/poster.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/poster1.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- //topplaemnt -->
+  <div class="container" id="ourplogo">
+    <h2>Our Top Placements</h2>
+  </div>
+  <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p1.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p2.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p3.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p4.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p5.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p6.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p7.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p8.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p9.jpg">
+    </div>
+
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p10.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="images/p11.jpg">
+    </div>
+  </div>
+
+  <div class="container pt-0 pb-0" style="margin-top: 8%;
+      margin-bottom: 2%;
+      text-decoration: underline;">
+    <h2 style="margin: 0; padding: 0;">Listen to Our students</h2>
+  </div>
+  <div class="container">
+    <div class="cards">
+      <div class="imgbx">
+        <img src="images/twinklechouhan.jpeg">
+      </div>
+      <div class="content">
+        <h4>TWINKLE RUNWAL</h4>
+        <p>IIST works towards strengthening the profile of students right from the first year by
+          facilitating various international certifications courses and cloud-based platform
+          SkillRack to improve the problem-solving skills. From first year itself, students
+          are engaged in personality development activities and aptitude training by Career
+          Development Cell (CDC), which helps in development of soft skills such as,
+          communication, group discussion, public speaking, problem-solving skills etc</p>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="imgbx">
+        <img src="images/kevalrawat.jpeg">
+      </div>
+      <div class="content">
+        <h4>CHANDAN CHOPRA</h4>
+        <p>At IIST, Career Development Cell (CDC) plays the most crucial role to train the students
+          for the campus placements through various activities and regular sessions on personality
+          development and aptitude. Through the trainings imparted by CDC and guidance of Corporate
+          Relations Cell, I am placed in core companies like; Asahi India Glass Ltd, Dhoot
+          transmissions and Silaris Information. Thank you IIST for the wonderful start to my career</p>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="imgbx">
+        <img src="images/chandanchopra.jpeg">
+      </div>
+      <div class="content">
+        <h4>KEVAL RAWAT</h4>
+        <p>I would like to share few point as I experienced during my graduation. I am happy with my
+          decision for Civil engineering, as I got placed in one of the core company with a handsome
+          package. The faculties and management always focussed on overall growth of the students.
+          Moreover, Placement department and Career development Cell have been a huge help to me during
+          my placement drives. Their regular sessions on GD-PI and aptitude helped to be industry ready.</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="container" style="margin: 0; padding: 0;
+    border-bottom: 1px solid;
+    text-decoration: underline;
+    color: bisque;">
+    <h2 style="font-size: 20px;"> THE DESK OF CORPORATE RELATIONS</h2>
+  </div>
+  <div class="cards">
+    <div class="card card1" style="height: 90%; border-radius: 6%;">
+      <div class="container">
+        <img src="images/rohit.png" alt="las vegas">
+      </div>
+      <div class="details">
+        <h3>Mr. Rohit Inani</h3>
+        <h6>Director, Corporate Relations</h6>
+        <h6>corporate.relations@indoreinstitute.com</h6>
+        <h6>+91-9827063083</h6>
+      </div>
+    </div>
+    <div class="card card2" style="height: 90%; border-radius: 6%;">
+      <div class="container">
+        <img src="images/biplab.jpg" alt="New York">
+      </div>
+      <div class="details" style="padding: 6px 8px;">
+        <h3>Mr. Biplab Dey</h3>
+        <h6>TPO, Corporate Relations</h6>
+        <h6>biplab.dey@indoreinstitute.com</h6>
+        <h6>+91-8878339258</h6>
+      </div>
+    </div>
+    <div class="card card6" style="height: 90%; border-radius: 6%;">
+      <div class="container">
+        <img src="images/sohanji_n.jpeg" alt="New York">
+      </div>
+      <div class="details">
+        <h3>Mr. Sohan Singh Chouhan</h3>
+        <h6>Training and Placement Executive</h6>
+        <h6>sohansingh.chouhan@indoreinstitute.com</h6>
+        <h6>+91-9981536280</h6>
+      </div>
+    </div>
+    <div class="card card5" style="height: 90%; border-radius: 6%;">
+      <div class="container">
+        <img src="images/mp.jpeg" alt="New York">
+      </div>
+      <div class="details">
+        <h3>Mr. Maneesh Kadam</h3>
+        <h6>Training and Placement Executive</h6>
+        <h6>maneesh.kadam@indoreinstitute.com</h6>
+        <h6>+91-9179783221</h6>
+      </div>
+    </div>
+    <div class="card card4" style="height: 90%; border-radius: 6%;">
+      <div class="container">
+        <img src="images/av.jpeg" alt="New York">
+      </div>
+      <div class="details">
+        <h3>Ms. Arti Verma</h3>
+        <h6>Training and Placement Executive</h6>
+        <h6>arti.verma@indoreinstitute.com</h6>
+        <h6>0731-4010545</h6>
+      </div>
+    </div>
+    <div class="card card3" style="height: 90%; border-radius: 6%;">
+      <div class="container">
+        <img src="images/ham.jpeg" alt="Singapore">
+      </div>
+      <div class="details">
+        <h3>Ms. Halima Mansuri</h3>
+        <h6>Office Assistant</h6>
+        <h6>halima.mansuri@indoreinstitute.com</h6>
+        <h6>0731-4010545</h6>
+      </div>
+    </div>
+  </div>
+  <!-- //glimpse of placement activities -->
+  <div class="container" style="padding: 0px;">
+    <h1>Glimpse of Placement Activities</h1>
+  </div>
+  <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }' id="gopa">
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"> Aryama Soft Services Pvt Ltd</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Collabera</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Locus RAGS Zucol Service pvt ltd</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Jaro Education</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Wangoes Technology</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Airtel</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Extentia</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa9.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa10.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa11.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="card gpa" style="width: 18rem;">
+        <img src="images/gpa13.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Silaris Informations PVT LTD</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container " style="height: 85%; margin-top: 8%;">
+    <img src="images/companyhier.jpg" alt="" style="height: 100%;">
+  </div>
+  <!-- //footer -->
+  <footer class="bootomfoot">
+    <div class="bottomfootcontainer">
+      <div class="bottomfoot-row">
+        <div class="bootomfoot-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="#">Toll Free: 1800 103 3069</a></li>
+            <li><a href="#">IIST: 8224071000 / 8225071000</a></li>
+            <li><a href="#">IIP: 8224074000</a></li>
+            <li><a href="#">IIMR: 8224073000</a></li>
+            <li><a href="mailto:admissions@indoreinstitute.com" target="_blank">admissions@indoreinstitute.com</a></li>
+
+          </ul>
+        </div>
+        <div class="bootomfoot-col">
+          <h4>Privacy Policies</h4>
+          <ul>
+            <li><a href="https://indoreinstitute.com/privacy-policy/" target="_blank">Privacy Policies</a></li>
+            <li><a href="https://indoreinstitute.com/disclaimer/" target="_blank">Disclaimer</a></li>
+            <li><a href="https://indoreinstitute.com/sitemap.xml" target="_blank">Sitemap</a></li>
+            <li><a href="https://indoreinstitute.com/tender/" target="_blank">Tender</a></li>
+
+          </ul>
+        </div>
+        <div class="bootomfoot-col">
+          <h4>IIST</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://indoreinstitute.com/message-from-the-management/">About</a></li>
+            <li><a href="https://indoreinstitute.com/events/">Services</a></li>
+            <li><a href="placement.html">Placements</a></li>
+          </ul>
+        </div>
+        <div class="bootomfoot-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/IISTcollegeindore/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/indoreinst1" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/indoreinstitute1/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/indore-institute/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- local js -->
+  <!-- <script src="main.js"></script> -->
+  <!-- Option 1 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <!-- Option 2 -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+  <!-- craulsels -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "45d531f1-3b40-4936-a8cb-b5882fedbe03", // The ID of this integration.
+      region: "jp-tok", // The region your integration is hosted in.
+      serviceInstanceID: "77cae5c8-2389-4140-b5d8-aa90fd3ef443", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</html>
